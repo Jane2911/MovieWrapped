@@ -3,8 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Wrapped</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vina+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-</body>
+    <body>
+    <!-- Navbar Start -->
+     <header>
+        <div class="topnav">
+            <nav>
+                <div class="navbar-brand">
+                    <h1 class="vina-400"><img src="Favicon.png" width="70px"> Movie Wrapped</h1>
+                </div>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="About.html">Movies</a>
+                    <a href="Service.html">Watch List</a>
+                    <a href="FAQ.html">My Saved</a>     
+
+            </nav>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Search Box -->
+     <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search for movies..."/>
+        <i class="fas fa-search search-icon"></i>
+    </div>
+    <!-- Search Box End -->
+
+    <!-- Hero Section -->
+    <main>
+        <section class="ft-movies">
+            <div class="featured-movie">
+            <img src="avatar.jpg" class="featured-backdrop"> 
+            <div class="featured-overlay">
+                <h1 class="featured-title">The Latest Blockbuster Movies</h1>
+            <p class="featured-description">Discover the most recent and popular movies that are making waves in the industry. From action-packed thrillers to heartwarming dramas, explore our curated selection of the latest releases.</p>
+            <div class="featured-actions">
+                <a href="#" class="btn-watch-now"><i class="fas fa-play-circle"></i> Watch Trailer</a>
+                <a href="#" class="btn-watch-now"><i class="fas fa-play-circle"></i> Watch Trailer</a>
+                <button class="btn-add-watchlist"><i class="fas fa-plus"></i> Add to Watchlist</button>
+            </div>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+    </body>
 </html>
